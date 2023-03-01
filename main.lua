@@ -8,6 +8,7 @@ screen_width, screen_height = 1200, 800
 
 function love.load()
     love.window.setMode(screen_width, screen_height)
+    love.window.setTitle ("LuaRoomShooter")
     utils_requireFiles(utils_getObjectFiles())
 
     input = Input()
